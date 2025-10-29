@@ -19,10 +19,11 @@ jobs:
       - name: Build
         run: make
 
+      # Lancia l'eseguibile corretto (si chiama 'malloc', non 'test')
       - name: Run unit test
-        run: ./test
+        run: ./malloc
 
+      # Stress test (evito dipendenze da run.sh)
       - name: Run stress loop
         run: |
-          chmod +x run.sh || true
-          ./run.sh
+          for n in $(seq 1 100); do ./malloc; done
