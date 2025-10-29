@@ -18,7 +18,6 @@ The goal is to understand how a memory allocator works internally, handling bloc
 | `test.c` | C test program to validate correctness and performance |
 | `Makefile` | Builds the project and links the assembly with the test code |
 | `run.sh` | Runs the test binary multiple times for stress testing |
-| `.gitignore`, `classroom.yml` | Configuration files for the GitHub Classroom environment |
 
 ---
 
@@ -167,7 +166,6 @@ L’obiettivo è comprendere il funzionamento interno di un allocatore di memori
 | `test.c` | Programma di test in C per verificarne correttezza e performance |
 | `Makefile` | Compila e collega il codice assembly ai test |
 | `run.sh` | Esegue ripetutamente i test di stress |
-| `.gitignore`, `classroom.yml` | File di configurazione per GitHub Classroom |
 
 ---
 
