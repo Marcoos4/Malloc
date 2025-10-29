@@ -1,0 +1,81 @@
+# ========================================================
+# 🧠 Custom malloc Project (.gitignore)
+# Based on: GitHub C template + custom rules for Assembly
+# ========================================================
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.out
+*.app
+*.exe
+*.i*86
+*.x86_64
+*.hex
+a.out
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (e.g., .so, .dll)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Debug / profiling
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.gcda
+*.gcno
+*.gcov
+
+# Build directories
+/build/
+/bin/
+/obj/
+
+# Kernel module intermediate results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# ========================================================
+# 👇 Custom ignores for this malloc project
+# ========================================================
+
+# Test binaries and compiled output
+/test
+/test.out
+/run.sh
+
+# Temporary or swap files
+*.swp
+*~
+.DS_Store
+
+# Backup or editor files
+*.bak
+*.tmp
+*.log
+
+# GitHub Classroom or grading files
+/.github/classroom/
